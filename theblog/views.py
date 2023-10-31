@@ -4,6 +4,7 @@ from .models import Post, Category, Comment
 from .forms import PostForm, EditForm, CommentForm
 from django.urls import reverse_lazy, reverse
 from django.http import HttpResponseRedirect
+
 #def home(request):
 #	return render(request, 'home.html', {})
 

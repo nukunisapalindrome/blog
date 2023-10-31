@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'theblog',
     'members',
     'ckeditor',
+    'ckeditor_uploader',
 ]
 
 MIDDLEWARE = [

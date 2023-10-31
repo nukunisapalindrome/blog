@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
+import django
+from django.utils.encoding import force_str
 import django_heroku
 import dj_database_url
 from decouple import config
@@ -147,3 +149,4 @@ CKEDITOR_UPLOAD_PATH = "uploads/"
 
 django_heroku.settings(locals())
 
+django.utils.encoding.force_text = force_str

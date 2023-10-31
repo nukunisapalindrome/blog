@@ -143,5 +143,7 @@ STATICFILES_DIRS = (
 LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'home'
 
+CKEDITOR_UPLOAD_PATH = "uploads/"
+
 django_heroku.settings(locals())
 

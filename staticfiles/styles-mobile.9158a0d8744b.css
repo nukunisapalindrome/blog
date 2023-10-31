@@ -1,0 +1,64 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.profile {
+    height: auto;
+    width: 100%;
+    background-color: #DFEFF1;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    position: relative;
+}
+
+.postouter {
+    height: auto;
+    flex-grow: 0;
+    width: 100%;
+    flex-basis: 100%;
+    margin: 1rem 0;
+    background-color: #FFF3DF;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.box3 {
+    background-color: #F4FAF9;
+    flex-basis: 100%;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Styles for smaller screens */
+@media screen and (max-width: 800px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .profile {
+        margin: 1rem 0;
+    }
+
+    .profile-pic {
+        margin-left: 7em;
+
+    }
+
+    .postouter {
+        margin: 1rem 0;
+    }
+}

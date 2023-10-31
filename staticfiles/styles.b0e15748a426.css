@@ -1,0 +1,166 @@
+body {
+     background: url("/static/theblog/images/background.e9a14db40c15.avif") 50% 0 no-repeat fixed;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+
+
+
+    }
+    .profile {
+      height: 100%;
+      width: 250px; /* A fixed width as the default */
+      background-color: #DFEFF1;
+      border: 1px solid #ccc; /* Add a border */
+      padding: 0px; /* Add some padding inside the box */
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Add a box shadow for a 3D effect */
+      border-radius: 10px;
+      position: fixed;
+
+    }
+
+    .postouter {
+      height: 110%;
+      flex-grow: 1;
+      flex-basis: 620px;
+      margin-left: 260px;
+      margin-right: 0.5%;
+      background-color: #FFF3DF;
+      border: 1px solid #ccc; /* Add a border */
+      padding: 10px; /* Add some padding inside the box */
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Add a box shadow for a 3D effect */
+
+    }
+
+    .box3 {
+      background-color: #F4FAF9;
+      flex-basis: 230px;
+      border: 1px solid #ccc; /* Add a border */
+      padding: 0; /* Add some padding inside the box */
+      text-decoration: none;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Add a box shadow for a 3D effect */
+      border-radius: 10px;
+    }
+}
+
+.profile {
+    float: left;
+    margin-left: 15px;
+    margin-right: 120px; /* add some margin to separate the profile section from the post section */
+    height: 200%;
+    padding: 0; /* Add some padding inside the box */
+
+}
+.profile-pic {
+    width: 125px;
+    height: 125px;
+    margin-left: 53px;
+    margin-top: 30px;
+    border-radius: 50%;
+    object-fit: contain ;
+    margin-bottom: 20px;
+}
+
+.post {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.posts ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.posts li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.box3 header {
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: #17a2b8;
+    user-select: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.nav {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    align-items: center;
+    color: black;
+    padding-left: 0;
+    text-align: center;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    broder-bottom: 1px solid black;
+}
+
+.nav a {
+  color: #17a2b8;
+}
+
+.nav :hover {
+  color: #17a2b8;
+  background-color: #E5F5F2;
+}
+
+.name {
+    font-family: 'Lora', serif;
+    margin: 0 auto; /* Center the box horizontally */
+    text-align: center; /* Center the content inside the box */
+
+    padding: 0; /* Add some padding inside the box */
+    line-height: 50px;
+}
+
+.job {
+    font-family: 'Poppins', serif;
+    margin: 5 auto; /* Center the box horizontally */
+    margin-left: 14px;
+    padding: 5px; /* Add some padding inside the box */
+}
+
+li.list-group-item {
+  background-color: #F4FAF9;
+}
+
+.list-group-item h6:hover svg {
+  fill: #29FFE2;
+}
+
+li.list-group-item:hover {
+  background-color: #E5F5F2;
+}
+
+.btn-white {
+    color: #fff;
+}
+
+li.each_post {
+    background-color: #F4FAF9;
+    border: 1px solid #ccc; /* Add a border */
+    padding: 10px; /* Add some padding inside the box */
+    margin: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Add a box shadow for a 3D effect */
+    border-radius: 10px;
+}
+
